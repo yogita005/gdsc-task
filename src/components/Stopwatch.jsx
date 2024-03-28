@@ -54,7 +54,7 @@ const Stopwatch = () => {
 
   return (
     <Draggable onDrag={handleDrag} position={position}>
-      <div className="w-64 p-4 bg-mint-300 border border-gray-300 rounded-md shadow-md ">
+      <div className="w-64 p-2 bg-mint-300 border border-gray-300 rounded-md shadow-md ">
         <div className={`stopwatch-container ${minimized ? 'minimized' : ''}`}>
           <div className="stopwatch">
             <button className="minimize" onClick={minimized ? handleMaximize : handleMinimize}>{minimized ? '➕' : '➖'}</button>

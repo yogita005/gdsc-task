@@ -126,10 +126,10 @@ const App = () => {
         <StickyNote />
         <Calendar />
       </div>
-      <div className="absolute bottom-10">
+      <div className="absolute bottom-3 left-[41%]">
       <SessionCount/>
       </div>
-      <div className="absolute bottom-10 ml-[25%]">
+      <div className="absolute left-5 top-10">
     <Sidebar isOpen={isSidebarOpen} toggleSidebar={toggleSidebar} className="hidden sm:flex" />
   </div>
   </div>

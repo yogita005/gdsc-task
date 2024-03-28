@@ -51,10 +51,10 @@ const Todo = () => {
   return (
     <Draggable handle=".handle">
       <div
-        className={`bg-mint-300 rounded-lg p-4 shadow-md text-mint-800 ${isMinimized ? 'h-auto' : ''}`}
+        className={`bg-mint-300 rounded-lg p-3 shadow-md text-mint-800 ${isMinimized ? 'h-auto' : ''}`}
       >
         <div className={`flex justify-between items-center handle`}>
-          <h1 className="text-xl text-mint-800 font-bold mb-4 max-sm:text-xs">Todo List</h1>
+          <h1 className="text-mint-800 font-bold mb-4 max-sm:text-xs">Todo List</h1>
           <button
             onClick={toggleMinimize}
             className="bg-none text-mint-800 px-4 py-2 rounded-md hover:bg-mint-50 max-sm:text-xs  "

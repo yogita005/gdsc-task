@@ -30,7 +30,7 @@ const Quote = () => {
 
   return (
     <Draggable onDrag={handleDrag} position={position}>
-    <div className="w-64 p-4 bg-mint-300 border border-gray-300 rounded-md shadow-md  max-sm:text-xs">
+    <div className="w-64 p-5 bg-mint-300 border border-gray-300 rounded-md shadow-md  max-sm:text-xs">
       <div className={`quote-container ${minimized ? 'minimized' : ''}`}>
         
         <div className="header">

@@ -97,7 +97,7 @@ const StickyNoteApp = () => {
           onDelete={deleteNote}
         />
       ))}
-      <button onClick={addNote} className="bg-mint-300 p-[20px] rounded-md border border-solid border-[#ccc] font-bold shadow-md max-sm:text-xs max-sm:w-[255px]">➕ Sticky note</button>
+      <button onClick={addNote} className="bg-mint-300 w-64 h-[70px] p-1 rounded-md border border-solid border-[#ccc] font-bold shadow-md max-sm:text-xs max-sm:w-[255px] text-left">➕ Sticky note</button>
     </div>
   );
 };

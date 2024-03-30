@@ -5,8 +5,8 @@ const TimeDisplay = ({ pomodoro, selectedControl }) => {
 
   return (
     <>
-      {minutes < 9 ? "0" : ""}
-      {minutes}:{seconds < 9 ? "0" : ""}
+      {minutes < 10 ? "0" : ""}
+      {minutes}:{seconds < 10 ? "0" : ""}
       {seconds}
     </>
   );

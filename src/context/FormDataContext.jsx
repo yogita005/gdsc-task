@@ -10,7 +10,6 @@ const FormDataProvider = ({ children }) => {
     longBreakTime: stages.longBreakTime / 60,
   });
 
-  // Load form data from local storage on component mount
   useEffect(() => {
     const storedFormData = localStorage.getItem("formData");
     if (storedFormData) {
@@ -18,7 +17,6 @@ const FormDataProvider = ({ children }) => {
     }
   }, []);
 
-  // Save form data to local storage whenever it changes
   useEffect(() => {
     localStorage.setItem("formData", JSON.stringify(formData));
   }, [formData]);

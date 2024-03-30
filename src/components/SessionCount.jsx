@@ -2,7 +2,7 @@ import React from "react";
 import useTimer from "../hooks/useTimer";
 
 const SessionCount = () => {
-  const { pomodoro, selectedControl, resetSessionCount, getRemainingTimePercentage, sessionCount } = useTimer();
+  const { pomodoro, selectedControl, resetSessionCount,sessionCount } = useTimer();
   const handleResetSessionCount = () => {
     resetSessionCount();
   };
@@ -19,7 +19,7 @@ const SessionCount = () => {
       >
         Reset Count ↻
       </button>
-      {/* Other timer components */}
+     
     </div>
   );
 };

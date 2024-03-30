@@ -10,12 +10,12 @@ import useCalculateTime from "./hooks/useCalculateTime";
 import { controllers } from "./constants/constants";
 import Todo from "./components/Todo";
 import Shortcuts from "./components/shortcuts";
-import Sidebar from "./components/Sidebar";
 import StickyNote from "./components/StickyNote";
 import Quotes from "./components/Quotes";
 import Stopwatch from "./components/Stopwatch";
 import SessionCount from "./components/SessionCount";
 import Calendar from "./components/Calendar";
+import Bgimage from "./components/Bgimage";
 
 
 const App = () => {
@@ -35,7 +35,6 @@ const App = () => {
     <div className="flex mt-0">
 
     <div className="absolute left-0 top-0">
-      {/* Render Pomodoro and other components */}
     </div>
       <div className="absolute left-0 top-0">
       <div className="absolute top-0 right-0">
@@ -47,7 +46,6 @@ const App = () => {
             stroke="black"
             className="w-8 h-8 m-6"
           >
-            {/* Settings SVG */}
           </svg>
         </button>
    
@@ -129,9 +127,10 @@ const App = () => {
       <div className="absolute bottom-3 left-[41%]">
       <SessionCount/>
       </div>
-      <div className="absolute left-5 top-10">
-    <Sidebar isOpen={isSidebarOpen} toggleSidebar={toggleSidebar} className="hidden sm:flex" />
-  </div>
+      <div className="absolute top-0 left-[40%]">
+      <Bgimage/>
+      </div>
+
   </div>
     </main>
   );

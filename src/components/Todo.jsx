@@ -6,7 +6,7 @@ const Todo = () => {
   const [inputValue, setInputValue] = useState("");
   const [editingIndex, setEditingIndex] = useState(null);
   const [editValue, setEditValue] = useState("");
-  const [isMinimized, setIsMinimized] = useState(true); // Set to true to keep it minimized by default
+  const [isMinimized, setIsMinimized] = useState(true); 
 
   const handleInputChange = (e) => {
     setInputValue(e.target.value);

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Draggable from "react-draggable";
 import Flatpickr from "react-flatpickr";
 import "flatpickr/dist/themes/light.css";
-import "flatpickr/dist/flatpickr.min.css"; // Import Flatpickr CSS
+import "flatpickr/dist/flatpickr.min.css"; 
 
 const DCalendar = () => {
   const [isMinimized, setIsMinimized] = useState(true);
@@ -31,8 +31,7 @@ const DCalendar = () => {
               <Flatpickr
                 className="border border-white bg-mint-800 w-full rounded-lg"
                 options={{
-                  disableMobile: true, // Disable mobile optimization for draggable component
-                  // Add any other Flatpickr options you need here
+                  disableMobile: true, 
                 }}
               />
               <p className="text-gray-600 hover:text-blue-600 font-semibold text-xs absolute top-0 left-0 ml-2 mt-1">

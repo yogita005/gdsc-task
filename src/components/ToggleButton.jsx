@@ -8,14 +8,14 @@ const ToggleButton = ({ pomodoro, setPomodoro }) => {
       }
     };
 
-    // Add event listener when component mounts
+   
     document.addEventListener("keydown", handleKeyDown);
 
-    // Cleanup by removing event listener when component unmounts
+    
     return () => {
       document.removeEventListener("keydown", handleKeyDown);
     };
-  }, []); // Empty dependency array ensures that the effect runs only once
+  }, []); 
 
   function togglePausePlay() {
     setPomodoro((prevPomodoro) => {

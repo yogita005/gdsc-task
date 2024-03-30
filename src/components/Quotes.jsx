@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Draggable from "react-draggable";
 
+
 const Quote = () => {
   const [quote, setQuote] = useState("");
   const [minimized, setMinimized] = useState(true);

@@ -1,8 +1,9 @@
 
 
----
+
 
 # GDSC Themed Pomodoro Timer
+---
 <img width="959" alt="image" src="https://github.com/yogita005/gdsc-task/assets/62391859/84c9298e-9db6-468f-aea7-cc58b70cb70f">
 
 This Pomodoro Timer website, crafted with React.js and Tailwind CSS, is more than just a time management tool—it's a productivity companion infused with the vibrant hues of GDSC (Google Developer Student Clubs). Embracing the Pomodoro Technique, it orchestrates work intervals with refreshing breaks, empowering users to optimize their productivity. Additionally, it offers draggable components like to-do lists,  stopwatch, quotes,  calendar, and sticky notes, making it a comprehensive productivity solution for users.
